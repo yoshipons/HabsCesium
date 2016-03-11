@@ -12,3 +12,12 @@ viewer.camera.setView({
 
 var terrainProvider = new Cesium.JapanGSITerrainProvider({});
 viewer.terrainProvider = terrainProvider;
+
+var viewer = new Cesium.Viewer('cesiumContainer', {
+    imageryProvider: new Cesium.OpenStreetMapImageryProvider({
+      url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
+      credit: new Cesium.Credit('地理院タイル', '', 'http://maps.gsi.go.jp/development/ichiran.html')
+    }),
+    baseLayerPicker: false
+  });
+  viewer.scene.camera.setPositionCartographic(Cesium.Cartographic.fromDegrees(140.00, 36.14, 20000000.0));
