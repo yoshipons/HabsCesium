@@ -8,7 +8,24 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="cesium" class="cesium"></div>
+    <div id="cesiumContainer" class="cesium"></div>
+    <div id="toolbar">
+      <table><tbody data-bind="foreach: layers">
+          <tr data-bind="css: { up: $parent.upLayer === $data, down: $parent.downLayer === $data }">
+              <td><input type="checkbox" data-bind="checked: show"></td>
+              <td>
+                  <span data-bind="text: name, visible: !$parent.isSelectableLayer($data)"></span>
+                  <select data-bind="visible: $parent.isSelectableLayer($data), options: $parent.baseLayers, optionsText: 'name', value: $parent.selectedLayer"></select>
+              </td>
+              <td>
+                  <input type="range" min="0" max="1" step="0.01" data-bind="value: alpha, valueUpdate: 'input'">
+              </td>
+              <td><button type="button" class="cesium-button" data-bind="click: function() { $parent.raise($data, $index()); }, visible: $parent.canRaise($index())">▲</button></td>
+              <td><button type="button" class="cesium-button" data-bind="click: function() { $parent.lower($data, $index()); }, visible: $parent.canLower($index())">▼</button></td>
+          </tr>
+      </tbody></table>
+    </div>
+    <div id="footer">CC BY 国立研究開発法人農業環境技術研究所 歴史的農業環境閲覧システム</div>
     <script src="node_modules/cesium/Build/Cesium/Cesium.js"></script>
     <script src="main.js"></script>
   </body>
