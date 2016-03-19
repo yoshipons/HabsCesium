@@ -1,11 +1,13 @@
 var viewer = new Cesium.Viewer("cesiumContainer", {
   baseLayerPicker : false,  //デフォルトのレイヤ切り替えウィジェットをオフにする
   timeline : false,         //デフォルトのタイムラインウィジェットをオフにする
-  animation : false,        //デフォルトのアニメーションウィジェットをオフにする
-  terrainProvider: new Cesium.JapanGSITerrainProvider({
-    
-  }),
+  animation : false         //デフォルトのアニメーションウィジェットをオフにする
 });
+
+// 地理院地図の標高タイルのライブラリ追加
+var terrainProvider = new Cesium.JapanGSITerrainProvider({});
+viewer.terrainProvider = terrainProvider;
+
 
 // 初期の視点設定
 viewer.camera.setView({
