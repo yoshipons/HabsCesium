@@ -5,7 +5,8 @@
 	<open>1</open>
 	<NetworkLink>
 		<name>歴 史 的 農 業 環 境 閲 覧 シ ス テ ム</name>
-		<description><![CDATA[<br /><h3><font color="#330000">迅速測図</font></h3>
+		<description><![CDATA[<br />
+		<h3><font color="#330000">迅速測図</font></h3>
 <p><font color="#666666">迅速測図とは、明治初期から中期にかけて行われた簡便な測量法とその成果の地図のことです。
 関東地方では明治13(1880)年から明治19（1886）年にかけて平野部から房総半島を対象に作成されました。</font></p>
 
@@ -16,7 +17,8 @@
 <p><font color="#666666">KML用のファイルの作成に当たっては、<a href="http://www.klokan.cz/projects/gdal2tiles/" target="_blank">GDAL2Tiles</a>を利用しました。　また、Google Earth用表示ファイルは、<a href="http://www.mapconcierge.jp/" target="_blank">マップ・コンシェルジュ</a>の<a href="http://www.mapconcierge.jp/o/htm/profile.html" target="_blank">古橋大地氏</a>よりご提供頂きました。</font></p>
 
 <h3><font color="#330000">データ利用</font></h3>
-<p><font color="#666666">本システムのデータを利用の条件は、<a href="http://habs.dc.affrc.go.jp/habs_faq.html" target="_blank">歴史的農業環境閲覧システムFAQ</a>をご覧ください。</font></p>]]></description>
+<p><font color="#666666">本システムのデータを利用の条件は、<a href="http://habs.dc.affrc.go.jp/habs_faq.html" target="_blank">歴史的農業環境閲覧システムFAQ</a>をご覧ください。</font></p>]]>
+		</description>
 		<Region>
 		<LatLonAltBox><north>36.5</north><south>34.9</south><east>141.0</east><west>138.9</west></LatLonAltBox>
 		<Lod><minLodPixels>128</minLodPixels>

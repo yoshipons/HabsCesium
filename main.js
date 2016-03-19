@@ -1,8 +1,10 @@
 var viewer = new Cesium.Viewer("cesiumContainer", {
   baseLayerPicker : false,  //デフォルトのレイヤ切り替えウィジェットをオフにする
   timeline : false,         //デフォルトのタイムラインウィジェットをオフにする
-  animation : false         //デフォルトのアニメーションウィジェットをオフにする
-
+  animation : false,        //デフォルトのアニメーションウィジェットをオフにする
+  terrainProvider: new Cesium.JapanGSITerrainProvider({
+    
+  }),
 });
 
 // 初期の視点設定
@@ -60,86 +62,31 @@ function setupLayers() {
     addBaseLayerOption(
             'Bing Maps Aerial',
             undefined); // the current base layer
-    addBaseLayerOption(
-            'Bing Maps Road',
-            new Cesium.BingMapsImageryProvider({
-                url: '//dev.virtualearth.net',
-                mapStyle: Cesium.BingMapsStyle.ROAD
-            }));
-    addBaseLayerOption(
-            'ArcGIS World Street Maps',
-            new Cesium.ArcGisMapServerImageryProvider({
-                url : '//server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer'
-            }));
-    addBaseLayerOption(
-            'OpenStreetMaps',
-            Cesium.createOpenStreetMapImageryProvider());
-    addBaseLayerOption(
-            'MapQuest OpenStreetMaps',
-            Cesium.createOpenStreetMapImageryProvider({
-                url: '//otile1-s.mqcdn.com/tiles/1.0.0/osm/'
-            }));
-    addBaseLayerOption(
-            'Stamen Maps',
-            Cesium.createOpenStreetMapImageryProvider({
-                url: '//stamen-tiles.a.ssl.fastly.net/watercolor/',
-                fileExtension: 'jpg',
-                credit: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under CC BY SA.'
-            }));
-    // addBaseLayerOption(
-    //         'Natural Earth II (local)',
-    //         Cesium.createTileMapServiceImageryProvider({
-    //             url : require.toUrl('Assets/Textures/NaturalEarthII')
-    //         }));
-    addBaseLayerOption(
-            'USGS Shaded Relief (via WMTS)',
-            new Cesium.WebMapTileServiceImageryProvider({
-                url : 'http://basemap.nationalmap.gov/arcgis/rest/services/USGSShadedReliefOnly/MapServer/WMTS',
-                layer : 'USGSShadedReliefOnly',
-                style : 'default',
-                format : 'image/jpeg',
-                tileMatrixSetID : 'default028mm',
-                maximumLevel: 19,
-                credit : new Cesium.Credit('U. S. Geological Survey')
-            }));
-
     // Create the additional layers
-    addAdditionalLayerOption(
-      'GSIMaps_std',
+    addBaseLayerOption(
+      '地理院地図',
             new Cesium.OpenStreetMapImageryProvider({
                 url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
-                mapStyle: Cesium.BingMapsStyle.ROA
+                credit: new Cesium.Credit('地理院タイル', '', 'http://maps.gsi.go.jp/development/ichiran.html')
             }));
+    // Create the additional layers
+    addBaseLayerOption(
+      '電子国土基本図（オルソ画像）',
+      new Cesium.OpenStreetMapImageryProvider({
+        url: 'http://cyberjapandata.gsi.go.jp/xyz/ort/',
+        credit: new Cesium.Credit('地理院タイル', '', 'http://maps.gsi.go.jp/development/ichiran.html')
+      }));
     addAdditionalLayerOption(
-            '迅速測図',
-            new Cesium.WebMapServiceImageryProvider({
-                url : '//mesonet.agron.iastate.edu/cgi-bin/wms/nexrad/n0r.cgi?',
-                layers : 'nexrad-n0r',
-                credit : 'Radar data courtesy Iowa Environmental Mesonet',
-                parameters : {
-                    transparent : 'true',
-                    format : 'image/png'
-                },
-                proxy : new Cesium.DefaultProxy('/proxy/')
-            }));
-    // addAdditionalLayerOption(
-    //         'TileMapService Image',
-    //         Cesium.createTileMapServiceImageryProvider({
-    //             url : '../images/cesium_maptiler/Cesium_Logo_Color'
-    //         }),
-    //         0.2);
-    // addAdditionalLayerOption(
-    //         'Single Image',
-    //         new Cesium.SingleTileImageryProvider({
-    //             url : '../images/Cesium_Logo_overlay.png',
-    //             rectangle : Cesium.Rectangle.fromDegrees(-115.0, 38.0, -107, 39.75)
-    //         }),
-    //         1.0);
+      '迅速測図',
+      new Cesium.OpenStreetMapImageryProvider({
+        url: 'http://www.finds.jp/ws/tmc/1.0.0/Kanto_Rapid-900913-L/',
+        "ext": "jpg",
+        "zmin": 0,
+        "zmax": 18,
+        credit : 'CC BY 国立研究開発法人農業環境技術研究所 歴史的農業環境閲覧システム',
+      }));
     addAdditionalLayerOption(
-            'Grid',
-            new Cesium.GridImageryProvider(), 1.0, false);
-    addAdditionalLayerOption(
-            'Tile Coordinates',
+            '図郭外図ポイント',
             new Cesium.TileCoordinatesImageryProvider(), 1.0, false);
 }
 
@@ -159,7 +106,7 @@ function addBaseLayerOption(name, imageryProvider) {
 
 function addAdditionalLayerOption(name, imageryProvider, alpha, show) {
     var layer = imageryLayers.addImageryProvider(imageryProvider);
-    layer.alpha = Cesium.defaultValue(alpha, 0.5);
+    layer.alpha = Cesium.defaultValue(alpha, 1);
     layer.show = Cesium.defaultValue(show, true);
     layer.name = name;
     Cesium.knockout.track(layer, ['alpha', 'show', 'name']);
