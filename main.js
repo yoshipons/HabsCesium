@@ -5,7 +5,9 @@ var viewer = new Cesium.Viewer("cesiumContainer", {
 });
 
 // 地理院地図の標高タイルのライブラリ追加
-var terrainProvider = new Cesium.JapanGSITerrainProvider({});
+var terrainProvider = new Cesium.JapanGSITerrainProvider({
+  heightPower: 2.0 //高さの倍率の設定
+});
 viewer.terrainProvider = terrainProvider;
 
 
@@ -88,9 +90,19 @@ function setupLayers() {
         credit : 'CC BY 国立研究開発法人農業環境技術研究所 歴史的農業環境閲覧システム',
       }));
     addAdditionalLayerOption(
-            '図郭外図ポイント',
-            new Cesium.TileCoordinatesImageryProvider(), 1.0, false);
+        '図郭外図ポイント',
+        Cesium.KmlDataSource.load('kml/shizu.kmz'),
+        {
+          camera: viewer.scene.camera,
+          canvas: viewer.scene.canvas
+        });
 }
+
+viewer.dataSources.add(Cesium.KmlDataSource.load('kml/shizu.kmz'),
+     {
+         camera: viewer.scene.camera,
+         canvas: viewer.scene.canvas
+     });
 
 function addBaseLayerOption(name, imageryProvider) {
     var layer;
