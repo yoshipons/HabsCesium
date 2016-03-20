@@ -89,20 +89,7 @@ function setupLayers() {
         "zmax": 18,
         credit : 'CC BY 国立研究開発法人農業環境技術研究所 歴史的農業環境閲覧システム',
       }));
-    addAdditionalLayerOption(
-        '図郭外図ポイント',
-        Cesium.KmlDataSource.load('kml/shizu.kmz'),
-        {
-          camera: viewer.scene.camera,
-          canvas: viewer.scene.canvas
-        });
 }
-
-viewer.dataSources.add(Cesium.KmlDataSource.load('kml/shizu.kmz'),
-     {
-         camera: viewer.scene.camera,
-         canvas: viewer.scene.canvas
-     });
 
 function addBaseLayerOption(name, imageryProvider) {
     var layer;
@@ -161,3 +148,15 @@ Cesium.knockout.getObservable(viewModel, 'selectedLayer').subscribe(function(bas
     baseLayer.alpha = alpha;
     updateLayerList();
 });
+
+var toolbar = document.getElementById('toolbar');
+Cesium.knockout.applyBindings(viewModel, toolbar);
+Cesium.knockout.getObservable(viewModel, 'fogEnabled').subscribe(function(newValue) {
+    viewer.scene.fog.enabled = newValue;
+});
+viewModel.enabled = viewer.scene.fog.enabled;
+// viewer.dataSources.add(Cesium.KmlDataSource.load('kml/shizu.kmz'),
+//      {
+//          camera: viewer.scene.camera,
+//          canvas: viewer.scene.canvas
+//      });
