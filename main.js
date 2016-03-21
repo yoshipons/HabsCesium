@@ -6,7 +6,7 @@ var viewer = new Cesium.Viewer("cesiumContainer", {
 
 // 地理院地図の標高タイルのライブラリ追加
 var terrainProvider = new Cesium.JapanGSITerrainProvider({
-  heightPower: 2.0 //高さの倍率の設定
+  heightPower: 2.5 //高さの倍率の設定
 });
 viewer.terrainProvider = terrainProvider;
 
@@ -21,9 +21,24 @@ viewer.camera.setView({
   }
 });
 
+// KMLの読み込み
+viewer.dataSources.add(Cesium.KmlDataSource.load('kml/shizu.kmz'),{
+         camera: viewer.scene.camera,
+         canvas: viewer.scene.canvas
+});
 
+// KMLのチェックボックス
+// var toolbar = document.getElementById('kml');
+// Cesium.knockout.applyBindings(viewModel, toolbar);
+// Cesium.knockout.getObservable(viewModel, 'fogEnabled').subscribe(function(newValue) {
+//     viewer.scene.fog.enabled = newValue;
+// });
+// viewModel.enabled = viewer.scene.fog.enabled;
+
+
+
+// 各種レイヤーの透過度の初期設定
 var imageryLayers = viewer.imageryLayers;
-
 var viewModel = {
     layers : [],
     baseLayers : [],
@@ -56,8 +71,8 @@ var viewModel = {
 };
 Cesium.knockout.track(viewModel);
 
+// 各種レイヤー読み込み
 var baseLayers = viewModel.baseLayers;
-
 function setupLayers() {
     // Create all the base layers that this example will support.
     // These base layers aren't really special.  It's possible to have multiple of them
@@ -148,15 +163,3 @@ Cesium.knockout.getObservable(viewModel, 'selectedLayer').subscribe(function(bas
     baseLayer.alpha = alpha;
     updateLayerList();
 });
-
-var toolbar = document.getElementById('toolbar');
-Cesium.knockout.applyBindings(viewModel, toolbar);
-Cesium.knockout.getObservable(viewModel, 'fogEnabled').subscribe(function(newValue) {
-    viewer.scene.fog.enabled = newValue;
-});
-viewModel.enabled = viewer.scene.fog.enabled;
-// viewer.dataSources.add(Cesium.KmlDataSource.load('kml/shizu.kmz'),
-//      {
-//          camera: viewer.scene.camera,
-//          canvas: viewer.scene.canvas
-//      });
