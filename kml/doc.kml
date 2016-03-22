@@ -7,7 +7,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -26,7 +26,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -35,7 +35,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -44,7 +44,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -53,7 +53,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -72,7 +72,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -91,7 +91,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -110,7 +110,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -139,7 +139,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -148,7 +148,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -167,7 +167,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -176,7 +176,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -185,7 +185,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -194,7 +194,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -203,7 +203,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -222,7 +222,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -231,7 +231,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -240,7 +240,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -249,7 +249,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -258,7 +258,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -267,7 +267,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -286,7 +286,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -315,7 +315,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -324,7 +324,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -333,7 +333,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -362,7 +362,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -371,7 +371,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -380,7 +380,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -389,7 +389,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -398,7 +398,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -427,7 +427,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -436,7 +436,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -455,7 +455,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -474,7 +474,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -493,7 +493,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -522,7 +522,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -531,7 +531,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -540,7 +540,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -569,7 +569,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -578,7 +578,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -587,7 +587,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -596,7 +596,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -615,7 +615,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -624,7 +624,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -633,7 +633,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -642,7 +642,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -651,7 +651,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -660,7 +660,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -669,7 +669,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -678,7 +678,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -687,7 +687,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -696,7 +696,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -705,7 +705,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -714,7 +714,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -723,7 +723,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -752,7 +752,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -761,7 +761,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -770,7 +770,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -779,7 +779,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -808,7 +808,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -827,7 +827,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -836,7 +836,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -845,7 +845,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -854,7 +854,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -883,7 +883,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -892,7 +892,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -901,7 +901,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -940,7 +940,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -959,7 +959,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -978,7 +978,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -997,7 +997,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1006,7 +1006,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1015,7 +1015,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1024,7 +1024,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1033,7 +1033,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1062,7 +1062,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1071,7 +1071,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1080,7 +1080,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1089,7 +1089,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1098,7 +1098,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1107,7 +1107,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1126,7 +1126,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1135,7 +1135,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1174,7 +1174,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1183,7 +1183,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1192,7 +1192,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1201,7 +1201,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1220,7 +1220,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1229,7 +1229,7 @@
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
@@ -1248,7 +1248,7 @@
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>https://raw.githubusercontent.com/HabsNiaes/HabsCesium/master/kml/HabsCesium.png</href>
+				<href>./HabsCesium.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
