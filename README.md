@@ -11,6 +11,53 @@
 - Google Chrome
 
 
+##0.開発環境の構築
+Cesium版歴史的農業環境閲覧システムを使った開発に便利なアプリケーションを紹介します。
+
+###①Gitのインソール
+GitHubからソースコードをダウンロードします。[サルでもわかるGit入門](http://www.backlog.jp/git-guide/intro/intro2_1.html) に使用しているOSごとのGitのインストール方法が説明されてます。
+
+
+###②Node.jsのインストール
+###nodebrewのインストール
+Node.jsのバージョン管理をするために、nodebrewをインストールします。詳しくは、[こちら](http://qiita.com/sinmetal/items/154e81823f386279b33c)を参照してください。Windowsユーザーの人は[nodeist](http://qiita.com/Kackey/items/b41b11bcf1c0b0d76149)をインストールします。
+
+```bash
+$ curl -L git.io/nodebrew | perl - setup
+$ export PATH=$HOME/.nodebrew/current/bin:$PATH
+$ source ~/.bash_profile
+```
+
+###Node.jsのインストール
+Node.jsを使うときには安定バージョン（Stable）を利用するといいです。
+[https://nodejs.org/en/blog/](https://nodejs.org/en/blog/)
+
+```bash
+$ nodebrew ls-remote
+$ nodebrew install-binary v4.1.1
+
+### install-binary しただけでは使えません
+
+$ nodebrew ls
+	v0.10.38
+	v4.1.1
+	v5.7.1
+	
+	current: v0.10.38
+
+$ nodebrew use v4.1.1
+	use v4.1.1
+
+$ node -v
+	v4.1.1
+
+$ npm -v
+	2.14.4
+```
+
+
+
+
 ##1.Cesiumのローカル環境での立ち上げ
 ###①GitHubからソースコードのClone
 
