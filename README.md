@@ -15,7 +15,7 @@
 Cesium版歴史的農業環境閲覧システムを使った開発に便利なアプリケーションを紹介します。
 
 ###①Gitのインソール
-GitHubからソースコードをダウンロードします。[サルでもわかるGit入門](http://www.backlog.jp/git-guide/intro/intro2_1.html) に使用しているOSごとのGitのインストール方法が説明されてます。
+GitHubからソースコードをダウンロードします。[サルでもわかるGit入門](http://www.backlog.jp/git-guide/intro/intro2_1.html) にOSごとのGitのインストール方法が説明されてます。
 
 
 ###②Node.jsのインストール
