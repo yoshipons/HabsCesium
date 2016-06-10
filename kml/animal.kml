@@ -1,0 +1,2368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ロードキル調査：動物アイコン</name>
+	<open>1</open>
+	<Style id="circle-highlight">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-9q83Q-AWdN4/Vqfh7-tt6AI/AAAAAAAHPG8/crNqCVw-boQ/s72-Ic42/circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="neko-highlight">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-oXBsJKHfFXc/VqffkPIDWiI/AAAAAAAHPGo/rMexMDDoAew/s72-Ic42/neko.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="neko">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#neko-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#neko-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="itachi">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#itachi-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#itachi-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="bird-normal">
+		<IconStyle>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-XpZkHOwT7LA/VqffjeW2jlI/AAAAAAAHPGo/8Z_3W6kFM6k/s72-Ic42/bird.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="usagi">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#usagi-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#usagi-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="usagi-normal">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-hdtb5VH63wQ/Vqffk-Ux8UI/AAAAAAAHPGo/S7IIzk5mFE0/s72-Ic42/usagi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="tanuki-normal">
+		<IconStyle>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-T-HStXzCAMY/VqfflJd4dOI/AAAAAAAHPGo/FbzeCIoHDIE/s72-Ic42/tanuki.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="usagi-highlight">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-hdtb5VH63wQ/Vqffk-Ux8UI/AAAAAAAHPGo/S7IIzk5mFE0/s72-Ic42/usagi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="kaeru">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#kaeru-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#kaeru-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="saru">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#saru-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#saru-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="itachi-normal">
+		<IconStyle>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-PWBgOhTXuOM/VqffjCy2PoI/AAAAAAAHPGo/UGKqjyUqsdc/s72-Ic42/itachi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="kaeru-normal">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-grrd0gST7cc/VqffjBCVu4I/AAAAAAAHPGo/cijUECT3bjY/s72-Ic42/kaeru.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="risu">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#risu-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#risu-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="circle-normal">
+		<IconStyle>
+			<scale>0.4</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-9q83Q-AWdN4/Vqfh7-tt6AI/AAAAAAAHPG8/crNqCVw-boQ/s72-Ic42/circle.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="neko-normal">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-oXBsJKHfFXc/VqffkPIDWiI/AAAAAAAHPGo/rMexMDDoAew/s72-Ic42/neko.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="shika">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#shika-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#shika-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="tanuki-highlight">
+		<IconStyle>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-T-HStXzCAMY/VqfflJd4dOI/AAAAAAAHPGo/FbzeCIoHDIE/s72-Ic42/tanuki.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="tanuki">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#tanuki-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#tanuki-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="bird-highlight">
+		<IconStyle>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-XpZkHOwT7LA/VqffjeW2jlI/AAAAAAAHPGo/8Z_3W6kFM6k/s72-Ic42/bird.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="saru-highlight">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/--qgGu2SouuI/VqffkNfjrmI/AAAAAAAHPGo/mjnD_pWveaA/s72-Ic42/saru.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="kaeru-highlight">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-grrd0gST7cc/VqffjBCVu4I/AAAAAAAHPGo/cijUECT3bjY/s72-Ic42/kaeru.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="itachi-highlight">
+		<IconStyle>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-PWBgOhTXuOM/VqffjCy2PoI/AAAAAAAHPGo/UGKqjyUqsdc/s72-Ic42/itachi.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#circle-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#circle-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="shika-normal">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-Bqs4xDPTdlQ/VqfflLcFzKI/AAAAAAAHPGo/_W8KMayP3DM/s72-Ic42/shika.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="risu-normal">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-cEbQ82CjOvc/VqffkKxGwxI/AAAAAAAHPGo/En006FuIXYo/s72-Ic42/risu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="saru-normal">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/--qgGu2SouuI/VqffkNfjrmI/AAAAAAAHPGo/mjnD_pWveaA/s72-Ic42/saru.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="bird">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#bird-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#bird-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="risu-highlight">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-cEbQ82CjOvc/VqffkKxGwxI/AAAAAAAHPGo/En006FuIXYo/s72-Ic42/risu.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="shika-highlight">
+		<IconStyle>
+			<scale>1.5</scale>
+			<Icon>
+				<href>https://lh3.googleusercontent.com/-Bqs4xDPTdlQ/VqfflLcFzKI/AAAAAAAHPGo/_W8KMayP3DM/s72-Ic42/shika.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.1</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	
+		<name>ホンドテン・ハクビシン・アナグマ</name>
+
+		<Placemark>
+			<name>ハクビシン 2015.5.6</name>
+			<description>07:00</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6120352,35.2751057,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハクビシン 2014.8.1</name>
+			<description>12:29</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7689903,35.4819329,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハクビシン 2014.8.1</name>
+			<description>13:00</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6794203,35.4776381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハクビシン 2014.12.23</name>
+			<description>23:15</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7708881,35.52078370000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハクビシン 2015.4.2</name>
+			<description>14:23</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.605683,35.4641552,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハクビシン 2015.6.19</name>
+			<description>15:06</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.9138194444445,35.40806666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハクビシン 2015.9.22</name>
+			<description>08:48</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6405633333334,35.48691166666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハクビシン 2015.10.6</name>
+			<description>07:05</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7106666666666,35.59920666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハクビシン 2015.11.28</name>
+			<description>08:18</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7698111111112,35.53965833333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.3.26</name>
+			<description>09:15</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8297222222222,35.44277777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.3.3</name>
+			<description>05:40</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8347758,35.4396698,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.2.25</name>
+			<description>07:20</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8344874,35.4398796,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.2.11</name>
+			<description>20:30</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6161111111111,35.51277777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.2.2</name>
+			<description>07:13</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6105555555555,35.49611111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2014.12.26</name>
+			<description>09:30</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8179119,35.4488034,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2014.8.28</name>
+			<description>13:40</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7565916,35.463681,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.3.31</name>
+			<description>20:30（通報情報）　現場確認不可</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8581498,35.3674891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.4.28</name>
+			<description>07:07</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.670317,35.4779417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.4.30</name>
+			<description>05:40</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.65751,35.4992651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.5.6</name>
+			<description>08:41</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8841651,35.3431201,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.6.23</name>
+			<description>07:35</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8100483333334,35.33047666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.11.1</name>
+			<description>12:53</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6955183333333,35.61377,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ホンドテン 2015.12.5</name>
+			<description>07:32</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7303933333333,35.51461833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アナグマ 2014.5.29</name>
+			<description>16:17</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5836111111112,35.40444444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アナグマ 2014.6.27</name>
+			<description>08:40</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6133333333333,35.48166666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アナグマ 2015.6.12</name>
+			<description>10:35</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6604222222222,35.28019166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アナグマ 2015.6.13</name>
+			<description>07:53</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6078277777777,35.45048333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アナグマ 2015.6.13</name>
+			<description>10:55</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6078333333334,35.45076944444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アナグマ 2015.6.14</name>
+			<description>08:44</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7041449999999,35.60467166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アナグマ 2015.6.23</name>
+			<description>05:10</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5925483333333,35.42958666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アナグマ 2015.7.21</name>
+			<description>08:11</description>
+			<styleUrl>#itachi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7621038,35.4825294,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>タヌキ・キツネ・アライグマ</name>
+		<Placemark>
+			<name>タヌキ 2014.9.2</name>
+			<description>11:30</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6066494,35.443782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.11.8</name>
+			<description>07:30</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.9181307,35.338547,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.11.9</name>
+			<description>09:40</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6098605,35.2896784,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.11.14</name>
+			<description>09:00</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6093933,35.4586198,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.11.26</name>
+			<description>19:40</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.65,35.27361111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.11.27</name>
+			<description>18:48</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7733333333333,35.50694444444444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.12.17</name>
+			<description>15:46</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7780555555555,35.45333333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.12.18</name>
+			<description>09:00</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6569444444444,35.275,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.12.21</name>
+			<description>16:08</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6275000000001,35.30416666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2014.12.25</name>
+			<description>09:53</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7569444444445,35.52166666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.1.14</name>
+			<description>08:30</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.71,35.48166666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.1.31</name>
+			<description>09:53</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6697222,35.4780224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.3.6</name>
+			<description>05:47</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8126289,35.452297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.3.14</name>
+			<description>11:20</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.912824,35.32059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.3.15</name>
+			<description>05:00</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6019444444444,35.43777777777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.3.31</name>
+			<description>01:07</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7417072,35.4539413,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.4.1</name>
+			<description>10:20</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8719444444445,35.32222222222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.4.1</name>
+			<description>09:20</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.859677,35.3743001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.4.2</name>
+			<description>14:00</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5858461,35.4740045,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.5.4</name>
+			<description>21:57</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8179611,35.4409834,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.5.6</name>
+			<description>07:50</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8128399,35.2589121,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.9.24</name>
+			<description>12:30</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5723866666667,35.38736666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.11.12</name>
+			<description>10:15</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6393055555556,35.28816666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.10.1</name>
+			<description>09:40</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6076216666667,35.46066833333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.10.5</name>
+			<description>21:10</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6555816666666,35.49914833333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.10.25</name>
+			<description>21:21</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7625933333334,35.48236,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.12.16</name>
+			<description>00:50</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6494921,35.2816448,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タヌキ 2015.12.19</name>
+			<description>21:05</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8954916666667,35.33593333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>キツネ 2014.5.29</name>
+			<description>16:27</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6034379,35.4399585,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>キツネ 2014.12.28</name>
+			<description>08:00</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8552134,35.3623666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>キツネ 2015.6.15</name>
+			<description>06:37</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8253972222223,35.49543055555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>キツネ 2015.11.7</name>
+			<description>10:19</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7643883333333,35.51151,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アライグマ 2015.8.21</name>
+			<description>21:08</description>
+			<styleUrl>#tanuki</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7762266666666,35.46438000000001,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>不明</name>
+		<Placemark>
+			<name>不明・判別不能 2014.6.27</name>
+			<description>08:54</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6083333333333,35.47888888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2014.6.27</name>
+			<description>09:12</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6330555555555,35.48555555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2014.8.1</name>
+			<description>16:20</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7369089,35.5034059,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2014.11.7</name>
+			<description>09:57</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6027777777778,35.43916666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2014.11.7</name>
+			<description>10:25</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6088808,35.4743502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2014.11.9</name>
+			<description>07:30</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7649081,35.47392,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2014.11.9</name>
+			<description>08:10</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6093452,35.4583596,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2014.11.14</name>
+			<description>07:29</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7686306,35.5399749,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.3.8</name>
+			<description>12:55</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8703019,35.3570188,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.3.31</name>
+			<description>20:30</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8580847,35.36774440000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.4.2</name>
+			<description>14:31</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6126261,35.4696283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.4.5</name>
+			<description>00:12</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7568365,35.486356,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.5.22</name>
+			<description>08:20</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6882916666666,35.477575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.6.2</name>
+			<description>00:14</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6772351,35.4780364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.6.7</name>
+			<description>17:29</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7910583333334,35.47553611111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.6.20</name>
+			<description>09:06</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5803611111111,35.35383055555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.6.20</name>
+			<description>13:48</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6902066666667,35.47808333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.6.23</name>
+			<description>06:04</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7877966666666,35.47714833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.10.7</name>
+			<description>00:30</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8342516666667,35.44001833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判断不能 2015.11.12</name>
+			<description>09:10</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.884455,35.33130833333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.10.7</name>
+			<description>01:50</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6074866666667,35.44473833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.10.23</name>
+			<description>11:06</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6831383333333,35.47788,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.12.16</name>
+			<description>01:35</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6076965,35.4512056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.12.17</name>
+			<description>15:36</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6249785,35.4892328,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明・判別不能 2015.12.18</name>
+			<description>08:50</description>
+			<styleUrl>#circle</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.755985,35.49776833333333,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>鳥類</name>
+		<Placemark>
+			<name>ドバト 2014.7.8</name>
+			<description>15:25</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.740059,35.5048598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>オオルリ 2014.7.17</name>
+			<description>09:23</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6477101,35.4903788,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明 2014.11.14</name>
+			<description>07:00</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5917766,35.4292891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>オオバン 2014.11.28</name>
+			<description>09:54</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7786621,35.4930643,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明 2015.01.24</name>
+			<description>09:00</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7808333333334,35.4913888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ヒヨドリ 2015.2.23</name>
+			<description>07:55</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7498374,35.523884,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>シジュウカラ 2015.2.25</name>
+			<description>12:04</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7627939,35.4824712,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハシブトガラス 2015.3.16</name>
+			<description>11:35</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6013064,35.39096,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アオゲラ 2015.4.2</name>
+			<description>10:30</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6756058,35.4729358,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>キジ 2015.4.30</name>
+			<description>22:00</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6765246,35.4783238,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>キジ（オス） 2014.6.1</name>
+			<description>05:30（中川さん）</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6008549,35.3759291,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>カラス 2015.6.23</name>
+			<description>07:13</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8889899999999,35.340235,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハシブトガラス 2015.7.15</name>
+			<description>16:50</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7588366666666,35.470845,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>不明 2015.8.6</name>
+			<description>15:55</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7703643,35.4995333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>オオバン 2015.12.14</name>
+			<description>12:41</description>
+			<styleUrl>#bird</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7674333333333,35.53880333333333,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>ニホンジカ</name>
+		<Placemark>
+			<name>ニホンジカ 2015.9.8</name>
+			<description>07:50</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.707477,35.6019223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.3.30</name>
+			<description>08:28</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6708333333334,35.47805555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.3.27</name>
+			<description>23:15</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6855555555555,35.50388888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.3.24</name>
+			<description>08:47</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8670638,35.3988911,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.3.15</name>
+			<description>07:50</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8855716,35.4216654,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.3.8</name>
+			<description>13:30</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8704986,35.2688988,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.2.19</name>
+			<description>14:06</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6753046,35.2576402,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.1.14</name>
+			<description>08:16</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6729007,35.4780774,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.12.24</name>
+			<description>08:00</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7586299,35.470555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.12.11</name>
+			<description>14:15</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6111111111111,35.49305555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.12.8</name>
+			<description>07:18</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6274381,35.4880224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.12.3</name>
+			<description>07:42</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6733005,35.478155,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.11.24</name>
+			<description>10:17</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6041432,35.4411231,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.11.10</name>
+			<description>07:27</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.62103,35.4881593,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.11.10</name>
+			<description>07:05</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6445844,35.4879174,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.11.7</name>
+			<description>06:37</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6027831,35.4388856,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.11.5</name>
+			<description>08:00</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6773752,35.256883,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.8.29</name>
+			<description>10:20</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8290902,35.3332738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.7</name>
+			<description>09:10</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6472906,35.2813925,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.6.9</name>
+			<description>10:20</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5975248,35.4330419,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2014.6.1</name>
+			<description>07:59</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6554361,35.481436,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.4.1</name>
+			<description>10:00</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8580555555556,35.3675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.4.4</name>
+			<description>08:38</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7672222222222,35.48805555555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.4.4</name>
+			<description>23:00</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7601796,35.5255019,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.4.5</name>
+			<description>03:17</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6062948,35.4612917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.4.13</name>
+			<description>08:50</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6076383333334,35.474725,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.5.3</name>
+			<description>17:55</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7645319,35.4733168,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.5.6</name>
+			<description>06:20</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5914207,35.42579520000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.5.6</name>
+			<description>08:15</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.9070233333333,35.32712333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.5.28</name>
+			<description>06:25</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8535638888889,35.41556111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.5.30</name>
+			<description>11:31</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6031229,35.4393143,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.5.30</name>
+			<description>18:10</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5988973,35.4350984,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.6.20</name>
+			<description>16:55</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6765233333333,35.47848666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.6.26</name>
+			<description>07:35</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7851988,35.4571962,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.6.28</name>
+			<description>20:33</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8391583333334,35.43668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.7.19</name>
+			<description>21:46</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7345604,35.4875232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.7.20</name>
+			<description>13:03</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6860319,35.4776738,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.9.8</name>
+			<description>12:46</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7499749999999,35.45140333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.10.6</name>
+			<description>23:00</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7997254,35.4561828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.10.16</name>
+			<description>19:10</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7366866666666,35.48827166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.10.30</name>
+			<description>06:36</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7433966666667,35.58661166666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.11.11</name>
+			<description>22:15</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7606695,35.5796569,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.11.12</name>
+			<description>09:45</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.715355,35.29588833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.11.22</name>
+			<description>15:40</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8635866666666,35.40912,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.12.2</name>
+			<description>17:42</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7389449999999,35.48898666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.12.17</name>
+			<description>16:10</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.624875,35.48944833333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンジカ 2015.12.30</name>
+			<description>09:40</description>
+			<styleUrl>#shika</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6476166666666,35.45259166666667,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>両生類・爬虫類</name>
+		<Placemark>
+			<name>アズマヒキガエル 2014.10.5</name>
+			<description>22:18</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6588572,35.5002663,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2014.11.1</name>
+			<description>19:12</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6582931,35.2708366,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2014.11.1</name>
+			<description>19:15</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6602777777778,35.26583333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2014.11.6</name>
+			<description>09:20</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7602654,35.4792992,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2015.3.19</name>
+			<description>05:33</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.653195,35.4989248,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2015.3.19</name>
+			<description>05:43</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6574745,35.4992387,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2015.3.19</name>
+			<description>05:53</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6492793,35.4949902,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2015.5.29</name>
+			<description>23:25</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7579333333333,35.45251111111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2015.10.2</name>
+			<description>14:00</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7293083333334,35.50190833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アズマヒキガエル 2015.10.19</name>
+			<description>16:43</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.864025,35.45939722222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>アオダイショウ 2014.8.5</name>
+			<description>08:40</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7366666666667,35.50333333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>シマヘビ 2015.8.16</name>
+			<description>09:30</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6813966666666,35.50223833333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>シマヘビ 2015.8.23</name>
+			<description>17:28</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8644717,35.4602142,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>シマヘビ 2015.11.5</name>
+			<description>12:16</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8630283333333,35.45922833333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ジムグリ 2015.9:20</name>
+			<description>15:47</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7212455,35.5251319,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ヤマカガシ 2015.9.15</name>
+			<description>11:04</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5870052,35.3269575,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ヤマカガシ 2015.10.21</name>
+			<description>19:23</description>
+			<styleUrl>#kaeru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6616116666667,35.50001666666667,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>ノウサギ</name>
+		<Placemark>
+			<name>ノウサギ 2014.12.30</name>
+			<description>07:17</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6762077,35.4784469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.3.15</name>
+			<description>04:30</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6150644,35.2666623,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.4.1</name>
+			<description>10:05</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7587238,35.4697091,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.4.5</name>
+			<description>01:32</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8534015,35.3270449,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.4.5</name>
+			<description>03:35</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6787386,35.477614,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.4.24</name>
+			<description>07:51</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7360533333333,35.50332166666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.7.7</name>
+			<description>08:52</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6361933,35.4329371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.9.22</name>
+			<description>08:40</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.713345,35.48238333333334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.12.15</name>
+			<description>23:50</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8718632,35.2716841,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ノウサギ 2015.12.23</name>
+			<description>12:50</description>
+			<styleUrl>#usagi</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8341133333333,35.331445,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>ニホンリス・ネズミ類</name>
+		<Placemark>
+			<name>ニホンリス 2015.5.17</name>
+			<description>08:55</description>
+			<styleUrl>#risu</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7080083333333,35.50658611111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンリス 2015.10.1</name>
+			<description>08:20</description>
+			<styleUrl>#risu</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7412567,35.4647706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ドブネズミ 2014.12.24</name>
+			<description>10:16</description>
+			<styleUrl>#risu</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7647222222222,35.49416666666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ハツカネズミ 2015.10.1</name>
+			<description>08:00</description>
+			<styleUrl>#risu</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7675666666667,35.49913611111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ムササビ 2015.5.27</name>
+			<description>21:32</description>
+			<styleUrl>#risu</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.8060555555555,35.45709722222222,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>ニホンザル</name>
+		<Placemark>
+			<name>ニホンザル 2015.1.5</name>
+			<description>08:19</description>
+			<styleUrl>#saru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7691666666667,35.51638888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ニホンザル 2015.9.21</name>
+			<description>18:23</description>
+			<styleUrl>#saru</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7088841,35.5071882,0</coordinates>
+			</Point>
+		</Placemark>
+	
+	
+		<name>ネコ</name>
+		<Placemark>
+			<name>ネコ 2014.8.2</name>
+			<description>12:50</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7366666666667,35.50333333333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2014.11.9</name>
+			<description>08:30</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6074636,35.4197767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2014.11.22</name>
+			<description>19:20</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7607812,35.5073161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2014.12.22</name>
+			<description>21:00</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7579065,35.5036024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2015.2.28</name>
+			<description>14:00</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7628475,35.5014675,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2015.10.6</name>
+			<description>23:20</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.80641,35.45616666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2015.12.3</name>
+			<description>17:55</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.7715333333333,35.49876666666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2014.7.21</name>
+			<description>09:00</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6563277777777,35.48103888888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2015.12.16</name>
+			<description>00:40（親ネコ？）</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6710383333333,35.25849166666666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ネコ 2015.12.16</name>
+			<description>00:40（子ネコ？）</description>
+			<styleUrl>#neko</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.6710383333333,35.25849166666666,0</coordinates>
+			</Point>
+		</Placemark>
+	
+</Document>
+</kml>
